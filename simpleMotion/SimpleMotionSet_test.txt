@@ -1,0 +1,28 @@
+n T_Pose
+
+n right_hip_flexion
+c R_Hip_Flex 90 -130
+m R_iliacus
+m R_iliacus1
+m R_iliacus2
+
+
+n right_hip_med_rot
+c R_Hip_Roll -30 60
+m R_Gluteus_Medius
+
+
+n right_knee_flexor_with_0_hip_angle
+c R_Knee_Flex 0 90
+m R_Gastrocnemius_Lateral_Head
+m R_Gastrocnemius_Medial_Head
+
+!----------------------------------------------------
+
+p T_Pose
+p Stand_Pose
+
+
+p right_hip_flexion
+p right_hip_med_rot
+p right_knee_flexor_with_0_hip_angle

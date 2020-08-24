@@ -1,0 +1,12 @@
+/home/hoseok/Downloads/clion-2018.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hoseok/workspace/SkelGen/converters/MuscleNewXML2XML
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Found DART: /usr/local/include  found components:  gui optimizer-ipopt dart 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hoseok/workspace/SkelGen/converters/MuscleNewXML2XML/cmake-build-debug

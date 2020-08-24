@@ -1,0 +1,50 @@
+<Muscle>
+    <!--<Unit name="L_Bicep_Femoris_Longus" f0="705.200000" lm="9.800000" lt="32.200000" pen_angle="11.600000">-->
+    <!--<Waypoint body="Pelvis" p="0.070700 0.901300 -0.063600 " />-->
+    <!--<Waypoint body="L_Femur" p="0.093100 0.854700 -0.047000 " />-->
+    <!--<Waypoint body="L_Tibia" p="0.137200 0.489400 -0.040700 " />-->
+    <!--</Unit>-->
+    <Unit name="R_Bicep_Femoris_Longus" f0="705.200000" lm="14.800000" lt="25.200000" pen_angle="11.600000">
+        <Waypoint body="Pelvis" p="-0.070700 0.901300 -0.063600 " />
+        <Waypoint body="R_Femur" p="-0.093100 0.854700 -0.047000 " />
+        <Waypoint body="R_Tibia" p="-0.137200 0.489400 -0.040700 " />
+    </Unit>
+    <!--<Unit name="L_Bicep_Femoris_Short" f0="315.800000" lm="11.000000" lt="10.400000" pen_angle="12.300000">-->
+    <!--<Waypoint body="L_Femur" p="0.118200 0.729800 0.000200 " />-->
+    <!--<Waypoint body="L_Tibia" p="0.139700 0.489800 -0.034600 " />-->
+    <!--</Unit>-->
+    <Unit name="R_Bicep_Femoris_Short" f0="315.800000" lm="11.000000" lt="5.400000" pen_angle="12.300000">
+        <Waypoint body="R_Femur" p="-0.118200 0.729800 0.000200 " />
+        <Waypoint body="R_Tibia" p="-0.139700 0.489800 -0.034600 " />
+    </Unit>
+    <!--<Unit name="L_Semimembranosus" f0="1162.700000" lm="6.900000" lt="37.800000" pen_angle="15.100000">-->
+    <!--<Waypoint body="Pelvis" p="0.075100 0.905200 -0.058000 " />-->
+    <!--<Waypoint body="Pelvis" p="0.082100 0.860400 -0.042300 " />-->
+    <!--<Waypoint body="L_Femur" p="0.081600 0.754200 -0.042100 " />-->
+    <!--<Waypoint body="L_Tibia" p="0.057700 0.527700 -0.053700 " />-->
+    <!--<Waypoint body="L_Tibia" p="0.067600 0.488400 -0.034800 " />-->
+    <!--</Unit>-->
+    <Unit name="R_Semimembranosus" f0="1162.700000" lm="6.900000" lt="37.800000" pen_angle="15.100000">
+        <Waypoint body="Pelvis" p="-0.075100 0.905200 -0.058000 " />
+        <Waypoint body="Pelvis" p="-0.082100 0.860400 -0.042300 " />
+        <Waypoint body="R_Femur" p="-0.081600 0.754200 -0.042100 " />
+        <Waypoint body="R_Tibia" p="-0.057700 0.527700 -0.053700 " />
+        <Waypoint body="R_Tibia" p="-0.067600 0.488400 -0.034800 " />
+    </Unit>
+    <!--<Unit name="L_Semitendinosus" f0="301.900000" lm="19.300000" lt="24.500000" pen_angle="12.900000">-->
+    <!--<Waypoint body="Pelvis" p="0.069100 0.887900 -0.064700 " />-->
+    <!--<Waypoint body="Pelvis" p="0.080200 0.852400 -0.058500 " />-->
+    <!--<Waypoint body="L_Femur" p="0.083300 0.790200 -0.069800 " />-->
+    <!--<Waypoint body="L_Femur" p="0.091900 0.703000 -0.077300 " />-->
+    <!--<Waypoint body="L_Tibia" p="0.075500 0.506400 -0.052400 " />-->
+    <!--<Waypoint body="L_Tibia" p="0.079400 0.459000 -0.001800 " />-->
+    <!--</Unit>-->
+    <Unit name="R_Semitendinosus" f0="301.900000" lm="11.500000" lt="36.300000" pen_angle="12.900000">
+        <Waypoint body="Pelvis" p="-0.069100 0.887900 -0.064700 " />
+        <Waypoint body="Pelvis" p="-0.080200 0.852400 -0.058500 " />
+        <Waypoint body="R_Femur" p="-0.083300 0.790200 -0.069800 " />
+        <Waypoint body="R_Femur" p="-0.091900 0.703000 -0.077300 " />
+        <Waypoint body="R_Tibia" p="-0.075500 0.506400 -0.052400 " />
+        <Waypoint body="R_Tibia" p="-0.079400 0.459000 -0.001800 " />
+    </Unit>
+</Muscle>

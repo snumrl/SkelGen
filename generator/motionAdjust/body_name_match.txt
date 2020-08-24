@@ -1,0 +1,17 @@
+Pelvis  Hips
+R_Femur RightUpLeg
+R_Tibia RightLeg
+R_Foot  RightFoot
+L_Femur LeftUpLeg
+L_Tibia LeftLeg
+L_Foot  LeftFoot
+Torso Spine
+Head Head
+R_Shoulder RightShoulder
+R_Arm RightArm
+R_ForeArm RightForeArm
+R_Hand RightHand
+L_Shoulder LeftShoulder
+L_Arm LeftArm
+L_ForeArm LeftForeArm
+L_Hand LeftHand

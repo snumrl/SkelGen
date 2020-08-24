@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ryuhoseok/workspace/SkelGen/converters/SkeletonXMLNamingRhs2Lsw/main.cpp
+iostream
+-
+tinyxml.h
+-
+string
+-
+map
+-
+fstream
+-
+

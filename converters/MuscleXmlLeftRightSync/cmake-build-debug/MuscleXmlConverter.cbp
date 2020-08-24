@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MuscleXmlConverter"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\dart\;CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MuscleXmlConverter">
+				<Option output="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/MuscleXmlConverter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMSS_ROOT_DIR=&quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync&quot;"/>
+					<Add option="-DOPT_MODE=&quot;LINE_SEARCH&quot;"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/coin"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 MuscleXmlConverter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MuscleXmlConverter/fast">
+				<Option output="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/MuscleXmlConverter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMSS_ROOT_DIR=&quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync&quot;"/>
+					<Add option="-DOPT_MODE=&quot;LINE_SEARCH&quot;"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/coin"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 MuscleXmlConverter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/main.cpp">
+			<Option target="MuscleXmlConverter"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/DARTConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/DARTConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_dartComponent.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_dartTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_dartTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_external-imguiComponent.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_external-imguiTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_external-imguiTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_external-lodepngComponent.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_external-lodepngTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_external-lodepngTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_external-odelcpsolverComponent.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_external-odelcpsolverTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_external-odelcpsolverTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_guiComponent.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_guiTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_guiTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_optimizer-ipoptComponent.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_optimizer-ipoptTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_optimizer-ipoptTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_utilsComponent.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_utilsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ryuhoseok/workspace/SkelGen/converters/MuscleXmlLeftRightSync/../../../../../../usr/share/dart/cmake/dart_utilsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\dart\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

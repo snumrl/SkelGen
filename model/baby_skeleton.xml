@@ -1,0 +1,78 @@
+<Skeleton name="rtgSkeleton">
+    <Joint type="FreeJoint" name="Pelvis" parent_name="None" size="0.104720 0.065360 0.080560 " mass="12.160000" bvh="Character1_Hips" obj="Pelvis.obj">
+        <BodyPosition linear="1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 " translation="0.000000 0.980900 -0.030800 " />
+        <JointPosition translation="0.000000 0.980540 -0.030480 " />
+    </Joint>
+    <Joint type="BallJoint" name="R_Femur" parent_name="Pelvis" size="0.050840 0.161720 0.055920 " mass="8.512000" bvh="Character1_RightUpLeg" obj="rtgR_Femur.obj">
+        <BodyPosition linear="0.999845 -0.017462 -0.002400 -0.017501 -0.999700 -0.017161 -0.002100 0.017200 -0.999850 " translation="-0.038360 0.878180 -0.027560 " />
+        <JointPosition translation="-0.036120 0.962020 -0.023120 " />
+    </Joint>
+    <Joint type="BallJoint" name="L_Femur" parent_name="Pelvis" size="0.050840 0.161720 0.055920 " mass="8.512000" bvh="Character1_LeftUpLeg" obj="rtgL_Femur.obj">
+        <BodyPosition linear="0.999845 -0.017462 -0.002400 0.017501 0.999700 0.017161 0.002100 -0.017200 0.999850 " translation="0.038360 0.878180 -0.027560 " />
+        <JointPosition translation="0.036120 0.962020 -0.023120 " />
+    </Joint>
+    <Joint type="RevoluteJoint" name="R_Tibia" parent_name="R_Femur" size="0.047920 0.166240 0.045640 " mass="3.648000" bvh="Character1_RightLeg" obj="rtgR_Tibia.obj" axis="1.000000 0.000000 0.000000 ">
+        <BodyPosition linear="0.999391 0.034767 -0.003043 0.034900 -0.995584 0.087146 0.000000 -0.087199 -0.996191 " translation="-0.037120 0.709260 -0.032120 " />
+        <JointPosition translation="-0.039800 0.804020 -0.022600 " />
+    </Joint>
+    <Joint type="RevoluteJoint" name="L_Tibia" parent_name="L_Femur" size="0.047920 0.166240 0.045640 " mass="3.648000" bvh="Character1_LeftLeg" obj="rtgL_Tibia.obj" axis="1.000000 0.000000 0.000000 ">
+        <BodyPosition linear="0.999391 0.034767 -0.003043 -0.034900 0.995584 -0.087146 0.000000 0.087199 0.996191 " translation="0.037120 0.709260 -0.032120 " />
+        <JointPosition translation="0.039800 0.804020 -0.022600 " />
+    </Joint>
+    <Joint type="BallJoint" name="R_Foot" parent_name="R_Tibia" size="0.042320 0.029400 0.096000 " mass="1.220000" bvh="Character1_RightFoot" obj="R_Foot.obj">
+        <BodyPosition linear="0.990299 0.025623 0.136570 0.022000 -0.999367 0.027972 0.137200 -0.024696 -0.990235 " translation="-0.037040 0.604660 -0.020120 " />
+        <JointPosition translation="-0.032000 0.619580 -0.035240 " />
+    </Joint>
+    <Joint type="BallJoint" name="L_Foot" parent_name="L_Tibia" size="0.042320 0.029400 0.096000 " mass="1.220000" bvh="Character1_LeftFoot" obj="L_Foot.obj">
+        <BodyPosition linear="0.990299 0.025623 0.136570 -0.022000 0.999367 -0.027972 -0.137200 0.024696 0.990235 " translation="0.037040 0.604660 -0.020120 " />
+        <JointPosition translation="0.032000 0.619580 -0.035240 " />
+    </Joint>
+    <Joint type="BallJoint" name="Spine" parent_name="Pelvis" size="0.087400 0.039040 0.071760 " mass="5.000000" bvh="Character1_Spine" obj="rtgSpine.obj" axis="0.000000 1.000000 0.000000 ">
+        <BodyPosition linear="1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 " translation="0.000000 1.036700 -0.030480 " />
+        <JointPosition translation="0.000000 1.015540 -0.035840 " lower="-0.400000 -0.400000 -0.400000 " upper="0.400000 0.400000 0.400000 " />
+    </Joint>
+    <Joint type="BallJoint" name="Torso" parent_name="Spine" size="0.115280 0.099360 0.074160 " mass="10.000000" bvh="Character1_Spine1" obj="rtgTorso.obj">
+        <BodyPosition linear="1.000000 0.000000 0.000000 0.000000 0.989995 0.141099 0.000000 -0.141099 0.989995 " translation="0.000000 1.112420 -0.033880 " />
+        <JointPosition translation="0.000000 1.058980 -0.038400 " />
+    </Joint>
+    <Joint type="RevoluteJoint" name="Neck" parent_name="Torso" size="0.048480 0.029120 0.033600 " mass="2.000000" bvh="Character1_Neck" obj="Neck.obj" axis="1.000000 0.000000 0.000000 ">
+        <BodyPosition linear="1.000000 0.000000 0.000000 0.000000 0.973169 -0.230093 0.000000 0.230093 0.973169 " translation="0.000000 1.200420 -0.028480 " />
+        <JointPosition translation="0.000000 1.182300 -0.035920 " lower="-0.400000 " upper="0.400000 " />
+    </Joint>
+    <Joint type="BallJoint" name="Head" parent_name="Neck" size="0.057960 0.058720 0.050000 " mass="4.000000" bvh="Character1_Head" obj="Head.obj" axis="1.000000 0.000000 0.000000 ">
+        <BodyPosition linear="1.000000 0.000000 0.000000 0.000000 0.989476 -0.144697 0.000000 0.144697 0.989476 " translation="0.000000 1.248780 -0.012480 " />
+        <JointPosition translation="0.000000 1.214620 -0.021920 " />
+    </Joint>
+    <Joint type="BallJoint" name="R_Shoulder" parent_name="Torso" size="0.065400 0.029920 0.032000 " mass="3.000000" bvh="Character1_RightShoulder" obj="R_Shoulder.obj">
+        <BodyPosition linear="0.998481 -0.004751 0.054895 -0.004700 -0.999988 -0.001063 0.054899 0.000803 -0.998492 " translation="-0.039240 1.174300 -0.034120 " />
+        <JointPosition translation="-0.025880 1.169940 -0.033720 " />
+    </Joint>
+    <Joint type="BallJoint" name="R_Arm" parent_name="R_Shoulder" size="0.133160 0.035880 0.033040 " mass="2.000000" bvh="Character1_RightArm" obj="rtgR_Arm.obj">
+        <BodyPosition linear="0.996043 0.036088 -0.081217 -0.066903 -0.297089 -0.952503 -0.058503 0.954168 -0.293499 " translation="-0.143120 1.169420 -0.027880 " />
+        <JointPosition translation="-0.079800 1.162540 -0.032600 " lower="-1.800000 -1.800000 -1.800000 " upper="1.800000 1.800000 1.800000 " />
+    </Joint>
+    <Joint type="RevoluteJoint" name="R_ForeArm" parent_name="R_Arm" size="0.105200 0.033280 0.033800 " mass="1.000000" bvh="Character1_RightForeArm" obj="rtgR_ForeArm.obj" axis="0.000000 1.000000 0.000000 ">
+        <BodyPosition linear="0.992924 0.082314 -0.085590 -0.051701 -0.349209 -0.935617 -0.106903 0.933422 -0.342483 " translation="-0.266960 1.176500 -0.020840 " />
+        <JointPosition translation="-0.209360 1.172820 -0.022680 " lower="0.000000 " upper="3.000000 " />
+    </Joint>
+    <Joint type="BallJoint" name="R_Hand" parent_name="R_ForeArm" size="0.060200 0.027440 0.037040 " mass="0.700000" bvh="Character1_RightHand" obj="R_Hand.obj">
+        <BodyPosition linear="0.971182 0.238338 0.000120 0.224296 -0.913795 -0.338630 -0.080599 0.328898 -0.940920 " translation="-0.353280 1.172620 -0.007760 " />
+        <JointPosition translation="-0.324080 1.176300 -0.010720 " lower="-0.700000 -0.700000 -0.700000 " upper="0.700000 0.700000 0.700000 " />
+    </Joint>
+    <Joint type="BallJoint" name="L_Shoulder" parent_name="Torso" size="0.065400 0.029920 0.032000 " mass="3.000000" bvh="Character1_LeftShoulder" obj="L_Shoulder.obj">
+        <BodyPosition linear="0.998481 -0.004751 0.054895 0.004700 0.999988 0.001063 -0.054899 -0.000803 0.998492 " translation="0.039240 1.174300 -0.034120 " />
+        <JointPosition translation="0.025880 1.169940 -0.033720 " />
+    </Joint>
+    <Joint type="BallJoint" name="L_Arm" parent_name="L_Shoulder" size="0.133160 0.035880 0.033040 " mass="2.000000" bvh="Character1_LeftArm" obj="rtgL_Arm.obj">
+        <BodyPosition linear="0.996043 0.036088 -0.081217 0.066903 0.297089 0.952503 0.058503 -0.954168 0.293499 " translation="0.143120 1.169420 -0.027880 " />
+        <JointPosition translation="0.079800 1.162540 -0.032600 " lower="-1.800000 -1.800000 -1.800000 " upper="1.800000 1.800000 1.800000 " />
+    </Joint>
+    <Joint type="RevoluteJoint" name="L_ForeArm" parent_name="L_Arm" size="0.105200 0.033280 0.033800 " mass="1.000000" bvh="Character1_LeftForeArm" obj="rtgL_ForeArm.obj" axis="0.000000 1.000000 0.000000 ">
+        <BodyPosition linear="0.992924 0.082314 -0.085590 0.051701 0.349209 0.935617 0.106903 -0.933422 0.342483 " translation="0.266960 1.176500 -0.020840 " />
+        <JointPosition translation="0.209360 1.172820 -0.022680 " lower="-3.000000 " upper="0.000000 " />
+    </Joint>
+    <Joint type="BallJoint" name="L_Hand" parent_name="L_ForeArm" size="0.060200 0.027440 0.037040 " mass="0.700000" bvh="Character1_LeftHand" obj="L_Hand.obj">
+        <BodyPosition linear="0.971182 0.238338 0.000120 -0.224296 0.913795 0.338630 0.080599 -0.328898 0.940920 " translation="0.353280 1.172620 -0.007760 " />
+        <JointPosition translation="0.324080 1.176300 -0.010720 " lower="-0.700000 -0.700000 -0.700000 " upper="0.700000 0.700000 0.700000 " />
+    </Joint>
+</Skeleton>

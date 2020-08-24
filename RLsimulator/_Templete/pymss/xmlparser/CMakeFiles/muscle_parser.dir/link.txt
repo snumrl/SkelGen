@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/muscle_parser.dir/muscle_main.cpp.o  -o muscle_parser -ltinyxml 

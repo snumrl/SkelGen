@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/sim",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/sim.dir/Action.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/Action.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/Action.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/sim",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/sim.dir/BVH.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/BVH.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/BVH.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/sim",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/sim.dir/Character.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/Character.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/Character.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/sim",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/sim.dir/Environment.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/Environment.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/Environment.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/sim",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/sim.dir/MotionCorrection.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/MotionCorrection.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/MotionCorrection.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/sim",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/sim.dir/MotionGraph.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/MotionGraph.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/MotionGraph.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/sim",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/sim.dir/Muscle.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/Muscle.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/Muscle.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/sim",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/sim.dir/MuscleLimitConstraint.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/MuscleLimitConstraint.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/MuscleLimitConstraint.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/sim",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/sim.dir/SkeletonBuilder.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/SkeletonBuilder.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/sim/SkeletonBuilder.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/render",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -I/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/../sim -I/usr/include/python3.5m -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/render.dir/Camera.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/Camera.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/Camera.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/render",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -I/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/../sim -I/usr/include/python3.5m -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/render.dir/GLUTWindow.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/GLUTWindow.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/GLUTWindow.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/render",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -I/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/../sim -I/usr/include/python3.5m -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/render.dir/GLfunctions.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/GLfunctions.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/GLfunctions.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/render",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -I/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/../sim -I/usr/include/python3.5m -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/render.dir/MSSInterface.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/MSSInterface.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/MSSInterface.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/render",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -I/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/../sim -I/usr/include/python3.5m -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/render.dir/SimWindow.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/SimWindow.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/SimWindow.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/render",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -I/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/../sim -I/usr/include/python3.5m -isystem /usr/include/eigen3 -isystem /usr/include/bullet -isystem /usr/include/coin  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/render.dir/main.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/main.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/render/main.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/xmlparser",
+  "command": "/usr/bin/c++  -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -I/usr/include/eigen3  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -o CMakeFiles/muscle_parser.dir/muscle_main.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/xmlparser/muscle_main.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/xmlparser/muscle_main.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/xmlparser",
+  "command": "/usr/bin/c++  -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -I/usr/include/eigen3  -O3 -DNDEBUG   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -o CMakeFiles/skel_parser.dir/skel_main.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/xmlparser/skel_main.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/xmlparser/skel_main.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/pymss",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -Dpymss_EXPORTS -I/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/../sim -I/usr/include/python3.5m -isystem /usr/include/eigen3 -isystem /usr/include/coin -isystem /usr/include/bullet   -fopenmp -O3 -DNDEBUG -fPIC   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/pymss.dir/EnvironmentPython.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/EnvironmentPython.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/EnvironmentPython.cpp"
+},
+{
+  "directory": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/pymss",
+  "command": "/usr/bin/c++  -DBOOST_TEST_DYN_LINK -DMSS_ROOT_DIR=\\\"/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete\\\" -Dpymss_EXPORTS -I/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/../sim -I/usr/include/python3.5m -isystem /usr/include/eigen3 -isystem /usr/include/coin -isystem /usr/include/bullet   -fopenmp -O3 -DNDEBUG -fPIC   -fPIC -std=gnu++11 -Wdeprecated-declarations -DHAVE_CSTDDEF -std=gnu++11 -o CMakeFiles/pymss.dir/WrapperFunctions.cpp.o -c /home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/WrapperFunctions.cpp",
+  "file": "/home/minseok/Desktop/FDMR_gradual_sim_proj/_Templete/pymss/WrapperFunctions.cpp"
+}
+]

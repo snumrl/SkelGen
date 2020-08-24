@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ryuhoseok/workspace/converters/MuscleXMLNamingLsw2Rhs/main.cpp
+iostream
+-
+tinyxml.h
+-
+string
+-
+map
+-
+fstream
+-
+

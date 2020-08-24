@@ -1,0 +1,156 @@
+<Muscle>
+	<!--R_Bicep_Femoris_Longus-->
+	<Waypoint body="Pelvis" p="-0.070700 0.901300 -0.063600 " />
+	<Waypoint body="R_Femur" p="-0.093100 0.854700 -0.047000 " />
+	<Waypoint body="R_Tibia" p="-0.137200 0.539400 -0.042700 " />
+	<Waypoint body="R_Tibia" p="-0.137200 0.489400 -0.040700 " />
+	<!--<Unit name="R_Bicep_Femoris_Longus" f0="705.200000" lm="14.800000" lt="25.200000" pen_angle="11.600000" indices="0 1 2 3" />-->
+
+	<!--R_Bicep_Femoris_Short-->
+	<Waypoint body="R_Femur" p="-0.118200 0.729800 0.000200 " />
+	<!--<Unit name="R_Bicep_Femoris_Short" f0="315.800000" lm="11.000000" lt="5.400000" pen_angle="12.300000" indices="4 2 3" />-->
+
+	<!--R_Semitendinosus-->
+	<Waypoint body="Pelvis" p="-0.069100 0.887900 -0.064700 " />
+	<Waypoint body="Pelvis" p="-0.080200 0.852400 -0.058500 " />
+	<Waypoint body="R_Femur" p="-0.083300 0.790200 -0.069800 " />
+	<Waypoint body="R_Femur" p="-0.091900 0.703000 -0.077300 " />
+	<Waypoint body="R_Tibia" p="-0.075500 0.506400 -0.052400 " />
+	<Waypoint body="R_Tibia" p="-0.079400 0.459000 -0.001800 " />
+	<!--<Unit name="R_Semitendinosus" f0="301.900000" lm="11.500000" lt="36.300000" pen_angle="12.900000" indices="5 6 7 8 9 10"/>-->
+
+	<!--R_Semimembranosus-->
+	<Waypoint body="Pelvis" p="-0.075100 0.905200 -0.058000 " />
+	<Waypoint body="Pelvis" p="-0.082100 0.860400 -0.042300 " />
+	<Waypoint body="R_Femur" p="-0.081600 0.754200 -0.042100 " />
+	<Waypoint body="R_Tibia" p="-0.067600 0.488400 -0.034800 " />
+	<!--<Unit name="R_Semimembranosus" f0="1162.700000" lm="6.900000" lt="37.800000" pen_angle="15.100000" indices="11 12 13 9 14"/>-->
+
+	<!--R_Gastrocnemius_Lateral_Head-->
+	<Waypoint body="R_Femur" p="-0.126200 0.562100 -0.006900 " />
+	<Waypoint body="R_Femur" p="-0.121900 0.554700 -0.038300 " />
+	<Waypoint body="R_Tibia" p="-0.128600 0.466100 -0.059100 " />
+	<Waypoint body="R_Tibia" p="-0.112000 0.272400 -0.091700 " />
+	<Waypoint body="R_Tibia" p="-0.090000 0.155600 -0.098200 " />
+	<Waypoint body="R_Foot"  p="-0.079000 0.025600 -0.098200 " />
+	<!--<Unit name="R_Gastrocnemius_Lateral_Head" f0="606.400000" lm="5.900000" lt="38.200000" pen_angle="12.000000" indices = "15 16 17 18 19 20"/>-->
+
+	<!--R_Gastrocnemius_Medial_Head-->
+	<Waypoint body="R_Femur" p="-0.072200 0.565100 -0.017200 " />
+	<Waypoint body="R_Femur" p="-0.095200 0.550700 -0.046600 " />
+	<Waypoint body="R_Tibia" p="-0.085700 0.432100 -0.052000 " />
+	<Waypoint body="R_Tibia" p="-0.062400 0.280100 -0.073000 " />
+	<!--<Unit name="R_Gastrocnemius_Medial_Head" f0="1308.000000" lm="5.100000" lt="40.100000" pen_angle="9.900000" indices = "21 22 23 24 19 20"/>-->
+
+
+	<!--R_Soleus-->
+	<Waypoint body="R_Tibia" p="-0.139900 0.493000 -0.043200 " />
+	<Waypoint body="R_Tibia" p="-0.121600 0.374300 -0.080600 " />
+	<Waypoint body="R_Tibia" p="-0.087100 0.286500 -0.078200 " />
+	<Waypoint body="R_Foot" p="-0.080700 0.029400 -0.099100 " />
+	<!--<Unit name="R_Soleus" f0="1792.95" lm="4.400000" lt="28.200000" pen_angle="28.300000" indices = "25 26 27 28"/>-->
+
+	<!--R_Soleus1-->
+	<Waypoint body="R_Tibia" p="-0.087500 0.468500 -0.023700 " />
+	<Waypoint body="R_Tibia" p="-0.083700 0.382700 -0.073200 " />
+	<!--<Unit name="R_Soleus1" f0="1792.95" lm="4.400000" lt="28.200000" pen_angle="28.300000" indices = "29 30 27 28" />-->
+
+	<!--R_Extensor_Digitorum_Longus-->
+	<Waypoint body="R_Tibia" p="-0.130000 0.493100 -0.011700 " />
+	<Waypoint body="R_Tibia" p="-0.131200 0.428200 -0.033400 " />
+	<Waypoint body="R_Foot" p="-0.108700 0.019200 0.079200 " />
+	<!--<Unit name="R_Extensor_Digitorum_Longus" f0="345.400000" lm="6.900000" lt="36.700000" pen_angle="10.800000" indices="31 32 35 33" />-->
+
+	<!--R_Extensor_Hallucis_Longus-->
+	<Waypoint body="R_Tibia" p="-0.115100 0.380600 -0.028300 " />
+	<Waypoint body="R_Tibia" p="-0.104700 0.158400 -0.031900 " />
+	<Waypoint body="R_Foot" p="-0.077200 0.071500 0.008300 " />
+	<Waypoint body="R_Foot" p="-0.059300 0.013800 0.110600 " />
+	<!--<Unit name="R_Extensor_Hallucis_Longus" f0="165.000000" lm="7.500000" lt="33.200000" pen_angle="9.400000" indices="34 35 36 37"/>-->
+
+	<!--R_Flexor_Digitorum_Longus-->
+	<Waypoint body="R_Tibia" p="-0.089500 0.398600 -0.020400 " />
+	<Waypoint body="R_Tibia" p="-0.073300 0.282500 -0.039700 " />
+	<Waypoint body="R_Foot" p="-0.063100 0.041000 -0.020700 " />
+	<Waypoint body="R_Foot" p="-0.109400 0.008600 0.095000 " />
+	<!--<Unit name="R_Flexor_Digitorum_Longus" f0="274.400000" lm="4.500000" lt="37.800000" pen_angle="13.600000" indices="38 39 44 40 41"/>-->
+
+	<!--R_Flexor_Hallucis-->
+	<Waypoint body="R_Tibia" p="-0.121200 0.392200 -0.037700 " />
+	<Waypoint body="R_Tibia" p="-0.101700 0.283000 -0.053000 " />
+	<Waypoint body="R_Tibia" p="-0.065000 0.060300 -0.066000 " />
+	<Waypoint body="R_Foot" p="-0.061700 0.008000 0.107200 " />
+	<!--<Unit name="R_Flexor_Hallucis" f0="436.800000" lm="5.300000" lt="35.600000" pen_angle="16.900000" indices="42 43 44 45"/>-->
+
+
+	<!--R_Rectus_Femoris-->
+	<Waypoint body="Pelvis" p="-0.108400 0.980800 0.013800 " />
+	<Waypoint body="R_Femur" p="-0.108500 0.851600 0.063200 " />
+
+	<!--R_Vastus_Intermedius-->
+	<Waypoint body="R_Femur" p="-0.121400 0.871200 0.005000 " />
+	<Waypoint body="R_Femur" p="-0.114800 0.770300 0.047900 " />
+
+	<!--R_Vastus_Lateralis-->
+	<Waypoint body="R_Femur" p="-0.145600 0.911100 0.007800 " />
+	<Waypoint body="R_Femur" p="-0.137000 0.778100 0.056000 " />
+	<Waypoint body="R_Tibia" p="-0.106300 0.550800 0.036700 " />
+
+	<!--R_Vastus_Medialis-->
+	<Waypoint body="R_Femur" p="-0.056600 0.739600 0.032300 " />
+	<Waypoint body="R_Tibia" p="-0.090800 0.566900 0.045200 " />
+	<Waypoint body="R_Tibia" p="-0.090800 0.556900 0.045200 " />
+
+	<!--R_Peroneus_Brevis-->
+	<Waypoint body="R_Tibia" p="-0.117200 0.283400 -0.044300 " />
+	<Waypoint body="R_Tibia" p="-0.119500 0.127100 -0.053900 " />
+	<Waypoint body="R_Foot" p="-0.101900 0.067700 -0.069000 " />
+	<Waypoint body="R_Foot" p="-0.121900 0.026800 -0.012700 " />
+
+	<!--R_Peroneus_Longus-->
+	<Waypoint body="R_Tibia" p="-0.139400 0.482000 -0.026200 " />
+	<Waypoint body="R_Tibia" p="-0.121200 0.170400 -0.042900 " />
+	<Waypoint body="R_Tibia" p="-0.109100 0.077400 -0.071200 " />
+	<Waypoint body="R_Foot" p="-0.108100 0.035100 -0.039800 " />
+	<Waypoint body="R_Foot" p="-0.073600 0.035900 0.019600 " />
+
+	<!--R_Tibialis_Anterior-->
+	<Waypoint body="R_Tibia" p="-0.130000 0.490600 -0.005700 " />
+	<Waypoint body="R_Tibia" p="-0.058000 0.071100 -0.014100 " />
+	<Waypoint body="R_Foot" p="-0.065200 0.037600 0.024200 " />
+
+	<!--R_Tibialis_Posterior-->
+	<Waypoint body="R_Tibia" p="-0.118800 0.464700 -0.030800 " />
+	<Waypoint body="R_Tibia" p="-0.055200 0.082000 -0.051200 " />
+	<Waypoint body="R_Foot" p="-0.089900 0.039200 0.010000 " />
+
+	<!--R_Vastus_Lateralis, 71-->
+	<Waypoint body="R_Tibia" p="-0.106300 0.560800 0.040700 " />
+
+	<!--Quadriceps Fermoris-->
+	<Unit name="R_Rectus_Femoris" f0="848.800000" lm="7.600000" lt="34.600000" pen_angle="13.900000" indices="46 47 54 55" />
+	<Unit name="R_Vastus_Intermedius" f0="1024.200000" lm="13.000000" lt="13.900000" pen_angle="4.500000"  indices="48 49 54 55"/>
+	<Unit name="R_Vastus_Lateralis" f0="2255.400000" lm="9.900000" lt="13.000000" pen_angle="18.400000" indices="50 51 71 52"/>
+	<Unit name="R_Vastus_Medialis" f0="1443.700000" lm="12.700000" lt="14.50000" pen_angle="29.60000" indices="48 53 54 55"/>
+
+	<!-- Hamstring -->
+	<!--<Unit name="R_Bicep_Femoris_Longus" f0="705.200000" lm="14.800000" lt="25.200000" pen_angle="11.600000" indices="0 1 2 3" />-->
+	<!--<Unit name="R_Bicep_Femoris_Short" f0="315.800000" lm="11.000000" lt="5.400000" pen_angle="12.300000" indices="4 2 3" />-->
+	<!--<Unit name="R_Semitendinosus" f0="301.900000" lm="11.500000" lt="36.300000" pen_angle="12.900000" indices="5 6 7 8 9 10"/>-->
+	<!--<Unit name="R_Semimembranosus" f0="1162.700000" lm="6.900000" lt="37.800000" pen_angle="15.100000" indices="11 12 13 9 14"/>-->
+
+	<!--Tibialis-->
+	<!--<Unit name="R_Gastrocnemius_Lateral_Head" f0="606.400000" lm="5.900000" lt="38.200000" pen_angle="12.000000" indices = "15 16 17 18 20"/>-->
+	<!--<Unit name="R_Gastrocnemius_Medial_Head" f0="1308.000000" lm="5.100000" lt="40.100000" pen_angle="9.900000" indices = "21 22 23 18 20"/>-->
+	<!--<Unit name="R_Soleus" f0="1792.95" lm="4.400000" lt="28.200000" pen_angle="28.300000" indices = "25 26 27 28"/>-->
+	<!--<Unit name="R_Soleus1" f0="1792.95" lm="4.400000" lt="28.200000" pen_angle="28.300000" indices = "29 30 27 28" />-->
+	<!--<Unit name="R_Extensor_Digitorum_Longus" f0="345.400000" lm="6.900000" lt="36.700000" pen_angle="10.800000" indices="31 32 35 33" />-->
+	<!--<Unit name="R_Extensor_Hallucis_Longus" f0="165.000000" lm="7.500000" lt="33.200000" pen_angle="9.400000" indices="34 35 36 37"/>-->
+
+	<!--<Unit name="R_Flexor_Digitorum_Longus" f0="274.400000" lm="4.500000" lt="37.800000" pen_angle="13.600000" indices="38 39 44 40 41"/>-->
+	<!--<Unit name="R_Flexor_Hallucis" f0="436.800000" lm="5.300000" lt="35.600000" pen_angle="16.900000" indices="42 43 44 45"/>-->
+	<!--<Unit name="R_Peroneus_Brevis" f0="305.900000" lm="4.500000" lt="14.800000" pen_angle="11.500000" indices="56 62 59"/>-->
+	<!--<Unit name="R_Peroneus_Longus" f0="653.300000" lm="5.100000" lt="33.300000" pen_angle="14.100000"  indices="60 62 63 64" />-->
+	<!--<Unit name="R_Tibialis_Anterior" f0="673.700000" lm="6.800000" lt="24.100000" pen_angle="9.600000" indices="65 66 67"/>-->
+	<!--<Unit name="R_Tibialis_Posterior" f0="905.600000" lm="3.800000" lt="28.200000" pen_angle="13.700000" indices="68 69 70"/>-->
+</Muscle>

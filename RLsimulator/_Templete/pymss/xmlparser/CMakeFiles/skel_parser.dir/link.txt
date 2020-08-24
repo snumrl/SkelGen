@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/skel_parser.dir/skel_main.cpp.o  -o skel_parser -ltinyxml 

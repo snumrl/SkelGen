@@ -1,0 +1,4 @@
+<Muscle>
+	<Unit name="L_Sternocleidomastoid1" f0="1000.000000" lm="1.100000" lt="0.200000" pen_angle="0.000000" indices="956 957 958 " />
+	<Unit name="R_Sternocleidomastoid1" f0="1000.000000" lm="1.100000" lt="0.200000" pen_angle="0.000000" indices="959 960 961 " />
+</Muscle>
