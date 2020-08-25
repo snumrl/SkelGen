@@ -71,7 +71,7 @@ Project page : [Link](http://mrl.snu.ac.kr/research/ProjectFunctionalityDriven/f
 ## Contributors
 This work is done with
 
-Hoseok Ryu(rhs0266.github.io)
+Hoseok Ryu([rhs0266.github.io](https://rhs0266.github.io/))
 
 
 ## Reference
