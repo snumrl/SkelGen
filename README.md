@@ -1,7 +1,8 @@
 # SkelGen
 This codes implement the algoirhtm of **Functionality-Driven Musculature Retargeting**. You can get musculoskeletal model with simple user input.
 
-
+## Blog
+http://mrl.snu.ac.kr/blog/ProjectFunctionalityDriven
 
 ## How to install
 
